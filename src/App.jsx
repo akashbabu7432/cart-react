@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './App.css'
 import { Route ,Routes} from 'react-router-dom'
 import Home from './pages/Home'
@@ -18,8 +18,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/Wishlist" element={<Wishlist />} />
         <Route path="/Cart" element={<Cart />} />
-        <Route path="/View" element={<View />} />
-        <Route path="/Pnf" element={<Pnf/>} />
+        <Route path="/products/:id/view" element={<View />} />
+        <Route path="/*" element={<Pnf/>} />
       </Routes>
       <Footer/>
       
