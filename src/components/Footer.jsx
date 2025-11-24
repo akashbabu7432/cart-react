@@ -1,21 +1,20 @@
 import {faYoutube,faTwitter, faInstagram,faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faArrowRight, faTruck } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import React from 'react'
 import { Link } from 'react-router-dom'
 
 
 function Footer() {
   return (
     <>
-      <div style={{height:'350px'}} className='bg-secondary d-flex justify-content-center align-items-center flex-column text-light'></div>
-      <div  className='d-flex mx-3  justify-content-between'>
+      <div  className='bg-secondary d-flex justify-content-center align-items-center flex-column text-light'></div>
+      <div  className='d-flex mx-3  justify-content-around'>
         <div style={{width:'300px'}} className='intro' >
           <h3><FontAwesomeIcon icon={faTruck}/> Daliya cart</h3>
           <p>Designed and built with all the love in the world by the Luminar team with
             the help of our contributors.Code licensed Luminar, docs CC BY 3.0.Currently v5.3.2</p>
             <p>Code licensed,docs CC by 3.0</p>
-            <p>Made with ❤️ by <a href='https://www.luminar.in' className='text-decoration-none'>Luminar</a></p>
+            <p>Made with ❤️ by <a href='https://www.luminar.in' className='text-decoration-none'>Akash</a></p>
           
         </div>
         <div className="link d-flex  flex-column ">
@@ -47,7 +46,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <p className='fw-bolder'>Copyright @ July 2025 Batch, Daily Cart. Built with
+      <p className='fw-bolder text-center '>Copyright @ July 2025 Batch, Daily Cart. Built with
 React Redux.</p>
     </>
   )
